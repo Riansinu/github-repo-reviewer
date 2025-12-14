@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repo Reviewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 GitHub Repository Reviewer</h1>
+    <p>Get AI-powered feedback on your GitHub repos</p>
+    <p style="color: #999; font-size: 14px; margin-top: 10px;">
+        Built by [Your Name] | Powered by Gemini AI
+    </p>
+        
+    <div class="input-section">
+    <input type="text" id="repoUrl" placeholder="https://github.com/username/repo">
+    <input type="password" id="apiKey" placeholder="Your Gemini API Key">
+    <button onclick="analyzeRepo()">Analyze Repository</button>
+    <div style="margin-top: 15px; text-align: center;">
+        <small style="color: #666;">Try examples: 
+            <a href="#" onclick="document.getElementById('repoUrl').value='https://github.com/torvalds/linux'; return false;" style="color: #667eea;">Linux</a> | 
+            <a href="#" onclick="document.getElementById('repoUrl').value='https://github.com/facebook/react'; return false;" style="color: #667eea;">React</a> | 
+            <a href="#" onclick="document.getElementById('repoUrl').value='https://github.com/microsoft/vscode'; return false;" style="color: #667eea;">VS Code</a>
+        </small>
+    </div>
+</div>
+
+        <div id="loading" class="loading" style="display:none;">
+            Analyzing repository... ⏳
+        </div>
+
+        <div id="results" class="results" style="display:none;"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
