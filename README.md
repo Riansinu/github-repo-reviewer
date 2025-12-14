@@ -49,6 +49,8 @@ This tool analyzes any public GitHub repository and provides:
 - ✅ **Confidence metric**: Unique "recruiter confidence" score
 - ✅ **No authentication required**: Works with any public repo instantly
 
+### Video demo:   https://drive.google.com/file/d/18Wptlw_hdSujIR6F3W9JhmidsH2PKaMQ/view?usp=drivesdk
+
 ## 📖 How It Works
 
 ### Analysis Pipeline
@@ -201,6 +203,7 @@ If you have any questions or issues:
 - Email: your.email@example.com
 
 ---
+
 
 **⭐ If this project helped you, please star the repository!**
 
