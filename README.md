@@ -178,9 +178,6 @@ This was built as a hackathon project in 2 hours! Contributions are welcome:
 - AI feedback quality depends on repository data available
 - API key must be provided by user (security consideration)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Built By
 
@@ -200,7 +197,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 If you have any questions or issues:
 - Open an issue on GitHub
-- Email: your.email@example.com
+- Email: riansinu3@gmail.com
 
 ---
 
